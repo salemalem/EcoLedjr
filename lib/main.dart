@@ -1,5 +1,9 @@
 void main() {
   print('Hello, World!');
+  Blockchain blockchain1 = Blockchain();
+  print(blockchain1.current_transactions);
+  blockchain1.new_transaction();
+  print(blockchain1.current_transactions);
 }
 
 // following
@@ -20,7 +24,11 @@ class Blockchain {
   }
 
   void new_transaction() {
-
+    this.current_transactions.add({
+      'sender',
+      'recipient',
+      'amount',
+    });
   }
 
   static String hash(dynamic block) {
