@@ -10,8 +10,8 @@ void main() {
 // https://hackernoon.com/learn-blockchains-by-building-one-117428612f46
 
 class Blockchain {
-  List<dynamic> current_transactions;
-  List<dynamic> chain_of_transactions;
+  List<Map> current_transactions;
+  List<Map> chain_of_transactions;
 
   // constructor
   Blockchain() {
@@ -25,9 +25,9 @@ class Blockchain {
 
   void new_transaction() {
     this.current_transactions.add({
-      'sender',
-      'recipient',
-      'amount',
+      'sender': 'Shyngys',
+      'recipient': 'Abhi',
+      'amount': '666',
     });
   }
 
