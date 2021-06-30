@@ -8,6 +8,10 @@ void main() {
   print(blockchain1.current_transactions);
   blockchain1.new_transaction();
   print(blockchain1.current_transactions);
+
+  var bytes = utf8.encode('ecoledjr');
+  Digest sha512Result = sha512.convert(bytes);
+  print(sha512Result);
 }
 
 // following
