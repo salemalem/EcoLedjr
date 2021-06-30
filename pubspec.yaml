@@ -1,0 +1,8 @@
+name: eco_ledjr
+
+environment:
+  sdk: '>=2.10.0 <3.0.0'
+
+dependencies:
+  crypto: ^3.0.1
+  convert: ^3.0.1
