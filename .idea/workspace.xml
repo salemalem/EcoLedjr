@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="92bf021c-84c3-4a5d-89b5-ed0f2c098bd9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/sockets/socket_client.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/sockets/socket_server.dart" afterDir="false" />
+    <list default="true" id="92bf021c-84c3-4a5d-89b5-ed0f2c098bd9" name="Default Changelist" comment="Socket technology is being tested since it will be used to synchronize nodes with each other.&#10;Need to test using 2 different computers later.">
+      <change afterPath="$PROJECT_DIR$/lib/database/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,8 +20,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/sockets/socket_server.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+            <state relative-caret-position="213">
+              <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
               <folding>
                 <element signature="e#0#514#0" expanded="true" />
               </folding>
@@ -32,10 +30,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/database/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="87" selection-start-column="87" selection-end-column="87" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/sockets/socket_client.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+            <state relative-caret-position="-72">
+              <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -59,6 +66,7 @@
         <option value="$PROJECT_DIR$/lib/main.dart" />
         <option value="$PROJECT_DIR$/lib/sockets/socket_server.dart" />
         <option value="$PROJECT_DIR$/lib/sockets/socket_client.dart" />
+        <option value="$PROJECT_DIR$/lib/database/README.md" />
       </list>
     </option>
   </component>
@@ -90,7 +98,7 @@
               <item name="ecoledjr" type="b2602c69:ProjectViewProjectNode" />
               <item name="ecoledjr" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="sockets" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -189,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625040687980</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Socket technology is being tested since it will be used to synchronize nodes with each other.&#10;Need to test using 2 different computers later.">
+      <created>1626870222641</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1626870222641</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -235,7 +250,8 @@
     <MESSAGE value="transactions are now Map, which is practically simple JSON format." />
     <MESSAGE value="pubspec yaml to track environment and packages added" />
     <MESSAGE value="sha512 is gonna be used since ecoledjr is built with quantum resistance and collision resistance in mind." />
-    <option name="LAST_COMMIT_MESSAGE" value="sha512 is gonna be used since ecoledjr is built with quantum resistance and collision resistance in mind." />
+    <MESSAGE value="Socket technology is being tested since it will be used to synchronize nodes with each other.&#10;Need to test using 2 different computers later." />
+    <option name="LAST_COMMIT_MESSAGE" value="Socket technology is being tested since it will be used to synchronize nodes with each other.&#10;Need to test using 2 different computers later." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ecoledjr.iml">
@@ -258,20 +274,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/sockets/socket_client.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-72">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/sockets/socket_server.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        <state relative-caret-position="213">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
           <folding>
             <element signature="e#0#514#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/sockets/socket_client.dart">
+    <entry file="file://$PROJECT_DIR$/lib/database/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        <state>
+          <caret column="87" selection-start-column="87" selection-end-column="87" />
         </state>
       </provider>
     </entry>

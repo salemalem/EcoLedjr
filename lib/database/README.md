@@ -1,0 +1,1 @@
+Make a database that creates class files and return objects. Maybe. Or build node tree.
